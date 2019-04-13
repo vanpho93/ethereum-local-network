@@ -1,15 +1,3 @@
-# Prerequisites
-1. [Docker and Docker composer](https://www.docker.com/get-started)
-2. [NodeJS](https://nodejs.org/en/)
-3. [Yarn](https://yarnpkg.com/en/)
-
-# How to run
-
-This is a list of intructions to run this docker and a server node with web3js to connect to ethereum nodes.
-
-1. Start up local ethereum network: `docker-compose up -d`
-2. Start web3,js client app: `cd application && yarn dev`
-
 # Local Ethereum Network
 A set of Docker images to create a local Ethereum network with three nodes and a monitor. This was built to understand how local Ethereum networks have to be set up and to provide a local test environment. **Never use this in a productive environment, as the docker-compose.yml contains hardcoded passwords and private keys for convenience**
 
